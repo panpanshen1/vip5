@@ -47,9 +47,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="381" />
-    <option name="y" value="41" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="389" />
+    <option name="y" value="165" />
     <option name="width" value="1242" />
     <option name="height" value="743" />
   </component>
@@ -132,7 +132,7 @@
       <workItem from="1582967179501" duration="20000" />
       <workItem from="1582967820750" duration="4775000" />
       <workItem from="1582973279538" duration="1735000" />
-      <workItem from="1583290818727" duration="370000" />
+      <workItem from="1583290818727" duration="553000" />
     </task>
     <task id="LOCAL-00001" summary="第一节课程">
       <created>1582973443734</created>
@@ -159,11 +159,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6952000" />
+    <option name="totallyTimeSpent" value="7135000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="381" y="41" width="1242" height="743" extended-state="1" />
-    <editor active="true" />
+    <frame x="389" y="165" width="1242" height="743" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30083334" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
