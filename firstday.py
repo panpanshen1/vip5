@@ -10,6 +10,6 @@ a.sort()
 print(a)
 
 
-b=[66,67,68]
+b=[66,67,68,0]
 a.extend(b)
 print(a)
