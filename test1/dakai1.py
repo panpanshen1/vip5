@@ -24,8 +24,9 @@
 #     #去除一些字符串，空格，斜杠n都可以去掉
 #     list1.append(m)
 # print(list1)
-#
+
 def add(a,b):
     print(a+b)
-
-
+if __name__ == '__main__':
+    print('有人执行我了')
+    print(__file__.__doc__)
