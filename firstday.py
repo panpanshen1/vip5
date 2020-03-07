@@ -133,28 +133,28 @@
 # print(s.values())
 
 
-dic={'a':10,'b':20,'c':90}
-jihe={2,6,3,2,4,9}
-
-jihe.add(55)
-#集合加元素
-dic['d']=55
-#字典加元素
-jihe.remove(3)
-#集合删除元素
-del dic['a']
-#字典删元素
-# print(jihe)
-# print(dic)
-c=list(dic.values())
-#字典的值列表
-d=list(jihe)
-#集合的列表
-# print(d)
+# dic={'a':10,'b':20,'c':90}
+# jihe={2,6,3,2,4,9}
+#
+# jihe.add(55)
+# #集合加元素
+# dic['d']=55
+# #字典加元素
+# jihe.remove(3)
+# #集合删除元素
+# del dic['a']
+# #字典删元素
+# # print(jihe)
+# # print(dic)
+# c=list(dic.values())
+# #字典的值列表
+# d=list(jihe)
+# #集合的列表
+# # print(d)
+# # print(c)
+# c.extend(d)
+# #连接两个列表
 # print(c)
-c.extend(d)
-#连接两个列表
-print(c)
 
 
 
@@ -168,3 +168,7 @@ print(c)
 # # print(a.count(3))
 # # print(a.index(7))
 # # print(9 in a)
+from dakai import *
+# import dakai
+# dakai.add(1,2)
+add(1,2)
