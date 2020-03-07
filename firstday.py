@@ -1,19 +1,19 @@
-
-a = [11,13,5,7,0,56,23,34,72]
-
-print(min(a),max(a),len(a))
-print(a.index(56))
-a.append(7)
-print(a)
-a.pop(4)
-print(a)
-a.sort()
-print(a)
-
-
-b=[66,67,68,0]
-a.extend(b)
-print(a)
+#
+# a = [11,13,5,7,0,56,23,34,72]
+#
+# print(min(a),max(a),len(a))
+# print(a.index(56))
+# a.append(7)
+# print(a)
+# a.pop(4)
+# print(a)
+# a.sort()
+# print(a)
+#
+#
+# b=[66,67,68,0]
+# a.extend(b)
+# print(a)
 
 # -*- coding:utf-8 -*-
 # coding=utf-8
@@ -133,11 +133,38 @@ print(a)
 # print(s.values())
 
 
-# dic={'a':10,'b':20,'c':90}
-# jihe={2,6,3,2,4,9}
-#
-# jihe.add(55)
-# #集合加元素
-# dic['d']='55'
+dic={'a':10,'b':20,'c':90}
+jihe={2,6,3,2,4,9}
+
+jihe.add(55)
+#集合加元素
+dic['d']=55
+#字典加元素
+jihe.remove(3)
+#集合删除元素
+del dic['a']
+#字典删元素
 # print(jihe)
 # print(dic)
+c=list(dic.values())
+#字典的值列表
+d=list(jihe)
+#集合的列表
+# print(d)
+# print(c)
+c.extend(d)
+#连接两个列表
+print(c)
+
+
+
+# a=int(input('请输入一个数字'))
+# print(a)
+
+
+
+# a = [3,5,6,7,3]
+# # print(a.append(5))
+# # print(a.count(3))
+# # print(a.index(7))
+# # print(9 in a)
