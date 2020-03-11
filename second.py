@@ -114,8 +114,8 @@
 # while i > 0:
 #  sum=i*sum
 #  i=i-1
-#  print(sum)
-#10的阶乘
+# print(sum)
+# #10的阶乘
 
 
 # a = 0
@@ -164,7 +164,7 @@
 # 想得到多重嵌套的list中一重嵌套中list长度大于1的list中的数为2的倍数的平方组成的list
 
 
-from  test1  import dakai1
-dakai1.add(1,3)
+# from  test1  import dakai1
+# dakai1.add(1,3)
 # if __name__ == '__main__':
 #     print('有人执行我了')
