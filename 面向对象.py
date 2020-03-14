@@ -246,7 +246,11 @@
 # class Gun(Soldier):
 #     def a(self):
 
+import os
 
-
-
-
+# str1 = 'happy'
+# result = str1.capitalize()
+# print(result)
+#
+# print(len(str1))
+# print(str1.count('p'))
