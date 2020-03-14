@@ -4,3 +4,5 @@ import os
 #os.getcwd()
 def print_path():
     print_path(os.getcwd())
+
+import requests
