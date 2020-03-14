@@ -62,6 +62,53 @@
 #         list2.append(a)
 # print(list2)
 
+# '''
+# 找出100以内的所有的质数
+#
+# 1-什么是质数
+#     只能被它本身和1整除的数---只能代表其他不能存在被整除的数，
+#     也就是说要把他本身到1之间所有的数都要整除一遍，不能有被整除的，
+#     如果有则说明不是质数，
+#     如果没没有，则说明是质数
+#
+# 2-怎么判断一个数是质数
+#     把他本身到1之间所有的数都要整除一遍，不能有被整除的，
+#     如果有则说明不是质数，
+#     如果没有（全部的数都要整除完毕），则说明是质数
+#
+# 3-循环100次
+#
+# '''
+#
+# #1-质数
+#
+# #2-质数判断
+#
+#
+# m = int(input('请输入！'))
+# print(type(m))
+#
+# list1 = []
+# for n in range(1,m+1):
+#     #如果是2和1则不用判断，直接加入列表
+#     if n == 2 or n == 1:
+#         list1.append(n)
+#     #否则（大于2）开始判断
+#     else:
+#         #判断一个数是否为质数-循环体
+#         for i in range(2,n):
+#
+#             if n % i == 0:
+#                 #如果条件成立说明能被整除，不是质数
+#                 print(("此数%d不是质数")%(n))
+#                 break
+#             elif i == n-1:
+#                 #否则要判断是否全部整除完毕，从2开始整除，一直到n-1代表全部整除完毕
+#                 print(("此数%d是质数")%(n))
+#                 list1.append(n)
+#
+# print(list1)
+
 
 
 # with open('/Users/shenpanpanpan/Desktop/未命名文件夹/第二天/1.txt','r')as f:
@@ -164,58 +211,58 @@
 
 
 
-with open('/Users/shenpanpanpan/Desktop/未命名文件夹/第二天/2.txt','r') as f:
-    a = f.readlines()
-    print(a)
-    # 打印所有行
-list1=[]
-for i in a:
-    m=i.strip('\n')
-    #去掉反斜杠
-    list1.append(m)
-    #放入一个新的列表
-print(list1)
-#打印刚刚的新列表
-i = 0
-#定义循环变量是i
-list2=[]
-list3=[]
-list4=[]
-while i < len(list1):
-#当i的长度比列表1的长度短时进行下面的循环
-   list2=list1[i].split(',')
-   #列表用，元素分割开，命名为新的列表
-   j = 0
-   #定义循环变量是j
-   while j < len(list2):
-       # 当i的长度比列表2的长度短时进行下面的循环
-       list3 = list2[j].split(',')
-       #列表用，元素分割开，命名为新的列表
-       print(list3)
-       k = 0
-       #定义一个循环变量是0
-       list4.append(int(list3[k]))
-       #把刚刚列表的元素们都拿出来组成新的列表
-       k+=1
-       #变量的变化
-       j += 1
-       #变量的变化
-  # print(list2)
-   i += 1
-  #变量的变化
-print(list4)
-print(sorted(list4))
-d=sorted(list4)
-print(d)
-with open('/Users/shenpanpanpan/Desktop/未命名文件夹/第二天/3.txt','a') as f1:
-       #a是有的时候增加，咩有的时候新建
-    for b in d:
-        print(b)
-        f1.write(str(b)+'\r\n')
-           #写入b并且加上空行
-
-       #写入这个
-
+# with open('/Users/shenpanpanpan/Desktop/未命名文件夹/第二天/2.txt','r') as f:
+#     a = f.readlines()
+#     print(a)
+#     # 打印所有行
+# list1=[]
+# for i in a:
+#     m=i.strip('\n')
+#     #去掉反斜杠
+#     list1.append(m)
+#     #放入一个新的列表
+# print(list1)
+# #打印刚刚的新列表
+# i = 0
+# #定义循环变量是i
+# list2=[]
+# list3=[]
+# list4=[]
+# while i < len(list1):
+# #当i的长度比列表1的长度短时进行下面的循环
+#    list2=list1[i].split(',')
+#    #列表用，元素分割开，命名为新的列表
+#    j = 0
+#    #定义循环变量是j
+#    while j < len(list2):
+#        # 当i的长度比列表2的长度短时进行下面的循环
+#        list3 = list2[j].split(',')
+#        #列表用，元素分割开，命名为新的列表
+#        print(list3)
+#        k = 0
+#        #定义一个循环变量是0
+#        list4.append(int(list3[k]))
+#        #把刚刚列表的元素们都拿出来组成新的列表
+#        k+=1
+#        #变量的变化
+#        j += 1
+#        #变量的变化
+#   # print(list2)
+#    i += 1
+#   #变量的变化
+# print(list4)
+# print(sorted(list4))
+# d=sorted(list4)
+# print(d)
+# with open('/Users/shenpanpanpan/Desktop/未命名文件夹/第二天/3.txt','a') as f1:
+#        #a是有的时候增加，咩有的时候新建
+#     for b in d:
+#         print(b)
+#         f1.write(str(b)+'\r\n')
+#            #写入b并且加上空行
+#
+#        #写入这个
+#
 
 
 
