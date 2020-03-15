@@ -82,5 +82,15 @@ import requests,json
 
 
 
+import requests
+urlstr='https://www.wanandroid.com/user/login'
 
+header={'host':'www.wanandroid.com'}
+
+payload={'username':'18001036589@163.com','password':'123456'}
+
+r=requests.post(url=urlstr,data=payload,headers=header)
+
+print(r.text)
+#print(r.headers)
 
