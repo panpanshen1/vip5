@@ -151,4 +151,75 @@
 
 
 
+# s={'a':10,'b':20,'c':15}
+# print(s.keys())
+# #取出所有的key
+# print(s.values())
+# #取出所有的values
+# s['c']=0
+# #新增/修改
+#
+# print(s)
+# print(list(s.items()))
+#取出所有的键值对，作为一个元组内的元素
+
+
+
+# j = {3,4,5,75,4,2,2,1,5,6}
+# z = {'a':3,'b':4,'c':6,'d':8}
+#
+# j.add(55)
+# print(j)
+#
+# z['d']=55
+# print(z)
+#
+# j.remove(3)
+# del z['d']
+# print(z)
+# print(j)
+# # list1=list(j)
+# # list2=list(z.values())
+# # list1.extend(list2)
+# list(j).extend(list(z.values()))
+# print(list(j))
+
+
+# list1 = [1,3,4,5,3,2,6]
+# num=int(input('输入一个数字'))
+# if num in list1:
+#     print('happu')
+
+# list1 = [1,3,4,5,3,2,6]
+# num=int(input('输入一个数字'))
+# if num in list1:
+#     print('hanppeu')
+#     n=list1.index(num)
+#取元素的下标
+#     list1[n]+=1
+#列表的下标取元素，然后元素加1
+#     print(list1)
+# #2-	if-else练习—从键盘输入一个数，判断该数是否在列表中，如果在就打印happy，并且让列表中的该值+1，否则打印sad
+# else:
+#     print('sad')
+
+
+#循环
+# n = 0
+# while n < 5:
+#     print('#')
+#     n+=1
+
+# sum = 0
+# n  =  1
+# while n < 101:
+#     sum = n + sum
+#     print(sum)
+#     n += 1
+
+# a=6
+# a*=3+3
+# print(a)
+
+
 
