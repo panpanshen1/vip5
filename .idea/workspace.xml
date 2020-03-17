@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="389be4f3-62b8-4c33-8c32-2c14244b7c0d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/3.15.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.16.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,12 +14,13 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/vip5$dakai1.coverage" NAME="dakai1 Coverage Results" MODIFIED="1583577687614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test1" />
     <SUITE FILE_PATH="coverage/vip5$jiekoukaishi.coverage" NAME="jiekoukaishi Coverage Results" MODIFIED="1584187336705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/vip5$3_16.coverage" NAME="3.16 Coverage Results" MODIFIED="1584417153130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/vip5$second.coverage" NAME="second Coverage Results" MODIFIED="1583745682162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/vip5$io.coverage" NAME="io Coverage Results" MODIFIED="1583574046955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/vip5$dakai.coverage" NAME="dakai Coverage Results" MODIFIED="1584083292954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/vip5$secondhomework.coverage" NAME="secondhomework Coverage Results" MODIFIED="1584098419089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/vip5$secondhomework.coverage" NAME="secondhomework Coverage Results" MODIFIED="1584368004075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/vip5$6.coverage" NAME="6 Coverage Results" MODIFIED="1583503500534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../哈哈/py" />
-    <SUITE FILE_PATH="coverage/vip5$3_15.coverage" NAME="3.15 Coverage Results" MODIFIED="1584281383994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/vip5$3_15.coverage" NAME="3.15 Coverage Results" MODIFIED="1584319285894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/vip5$progress_imform_2.coverage" NAME="progress_imform_2 Coverage Results" MODIFIED="1584015106493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../哈哈/py" />
     <SUITE FILE_PATH="coverage/vip5$coverage_commerce.coverage" NAME="coverage_commerce Coverage Results" MODIFIED="1584015358043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../哈哈/py" />
     <SUITE FILE_PATH="coverage/vip5$.coverage" NAME="面向对象 Coverage Results" MODIFIED="1584175429942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -29,11 +30,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/3.15.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="154" lean-forward="true" selection-start-line="154" selection-end-line="154" />
+            <state relative-caret-position="3375">
+              <caret line="225" lean-forward="true" selection-start-line="225" selection-end-line="225" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/3.16.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="321">
+              <caret line="212" lean-forward="true" selection-start-line="212" selection-end-line="212" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/secondhomework.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+              <caret line="39" selection-start-line="39" selection-end-line="46" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/firstday.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="161" column="10" lean-forward="true" selection-start-line="161" selection-start-column="10" selection-end-line="161" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -65,19 +93,20 @@
         <option value="$PROJECT_DIR$/../../哈哈/py/coverage_commerce.py" />
         <option value="$PROJECT_DIR$/dakai.py" />
         <option value="$PROJECT_DIR$/函数.py" />
-        <option value="$PROJECT_DIR$/secondhomework.py" />
         <option value="$PROJECT_DIR$/面向对象.py" />
         <option value="$PROJECT_DIR$/os和string.py" />
         <option value="$PROJECT_DIR$/jiekoukaishi.py" />
         <option value="$PROJECT_DIR$/3.15.py" />
+        <option value="$PROJECT_DIR$/secondhomework.py" />
+        <option value="$PROJECT_DIR$/3.16.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="143" />
-    <option name="y" value="28" />
-    <option name="width" value="1186" />
-    <option name="height" value="810" />
+    <option name="x" value="382" />
+    <option name="y" value="23" />
+    <option name="width" value="846" />
+    <option name="height" value="718" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -120,51 +149,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.3.15">
-    <configuration name="函数" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="vip5" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/函数.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="面向对象" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="vip5" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/面向对象.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.3.16">
     <configuration name="3.15" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="vip5" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -179,6 +164,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3.15.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="3.16" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="vip5" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3.16.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -231,13 +238,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="secondhomework" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="vip5" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/secondhomework.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.3.16" />
+        <item itemvalue="Python.secondhomework" />
         <item itemvalue="Python.3.15" />
         <item itemvalue="Python.jiekoukaishi" />
         <item itemvalue="Python.os和string" />
-        <item itemvalue="Python.面向对象" />
-        <item itemvalue="Python.函数" />
       </list>
     </recent_temporary>
   </component>
@@ -259,7 +288,7 @@
       <workItem from="1583329400371" duration="38582000" />
       <workItem from="1584071762526" duration="83000" />
       <workItem from="1584071847496" duration="14000" />
-      <workItem from="1584072118895" duration="51723000" />
+      <workItem from="1584072118895" duration="64322000" />
     </task>
     <task id="LOCAL-00001" summary="第一节课程">
       <created>1582973443734</created>
@@ -415,11 +444,25 @@
       <option name="project" value="LOCAL" />
       <updated>1584237477069</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="第二天">
+      <created>1584281451517</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1584281451518</updated>
+    </task>
+    <task id="LOCAL-00024" summary="第二天">
+      <created>1584367309158</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1584367309158</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98369000" />
+    <option name="totallyTimeSpent" value="110968000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -431,24 +474,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="687" y="44" width="1186" height="810" extended-state="0" />
-    <editor active="true" />
+    <frame x="787" y="30" width="846" height="718" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1993007" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2835821" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48251748" visible="true" weight="0.5097493" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.48504552" weight="0.3955432" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4738806" visible="true" weight="0.29233226" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.47739223" weight="0.39456868" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49955156" weight="0.32954547" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4984227" weight="0.3290735" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49517375" weight="0.32729805" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49421662" weight="0.3258786" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5174825" side_tool="true" visible="true" weight="0.5097493" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4868881" weight="0.3913649" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5261194" side_tool="true" weight="0.29233226" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.48526317" weight="0.4432" />
       <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49952334" weight="0.4345404" />
       <window_info anchor="right" id="Coverage" order="0" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
@@ -521,6 +563,21 @@
           <line>100</line>
           <option name="timeStamp" value="52" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/3.16.py</url>
+          <line>119</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/3.16.py</url>
+          <line>122</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/3.16.py</url>
+          <line>116</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -565,13 +622,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/firstday.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="161" column="10" lean-forward="true" selection-start-line="161" selection-start-column="10" selection-end-line="161" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mytest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
@@ -604,20 +654,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="409">
           <caret line="147" column="20" lean-forward="true" selection-start-line="147" selection-start-column="20" selection-end-line="147" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="309" selection-start-line="309" selection-end-line="309" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/secondhomework.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="262" column="1" lean-forward="true" selection-start-line="262" selection-start-column="1" selection-end-line="262" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -658,8 +694,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/3.15.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="154" lean-forward="true" selection-start-line="154" selection-end-line="154" />
+        <state relative-caret-position="3375">
+          <caret line="225" lean-forward="true" selection-start-line="225" selection-end-line="225" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/firstday.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="161" column="10" lean-forward="true" selection-start-line="161" selection-start-column="10" selection-end-line="161" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/secondhomework.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="39" selection-start-line="39" selection-end-line="46" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="309" selection-start-line="309" selection-end-line="309" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.16.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="212" lean-forward="true" selection-start-line="212" selection-end-line="212" />
         </state>
       </provider>
     </entry>
