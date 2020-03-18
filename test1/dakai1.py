@@ -25,8 +25,9 @@
 #     list1.append(m)
 # print(list1)
 
-def add(a,b):
-    print(a+b)
+def add():
+    print('ddsd')
+add()
 if __name__ == '__main__':
     print('有人执行我了')
     print(__file__.__doc__)
