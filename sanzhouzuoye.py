@@ -105,6 +105,8 @@
 #         Furniture().chuang('床','4')
 #         Furniture().yigui('衣柜', '2')
 #         Furniture().desk('书桌', '1.5')
+# a = House('一室一厅','100')
+# a.ban('55')
 #
 # #类：家具Furniture.chuang('床','4')
 # #属性
@@ -112,19 +114,14 @@
 # #对象
 #
 #
-# a = House('一室一厅','100')
-# a.ban('55')
+
 
 
 
 #类：士兵
 #属性name
 #方法：开火
-# class Solider(object):
-#     def __init__(self,name):
-#         self.name = name
-#     def  kaihuo(self):
-#         print(self.name,'可以开火')
+
 # class Gun(object):
 #     def __init__(self,name):
 #         self.name = name
@@ -132,15 +129,29 @@
 #         print(self.name,'可以发射子弹')
 #     def chuangtian(self):
 #         print(self.name,'装填子弹')
-#
-# class D(Solider,Gun):
+#     def have(self):
+#         Solider('ruien').have()
+#         print('有一把',self.name)
+# class Solider(Gun):
+#     def __init__(self,name):
+#         self.name = name
+#     def  kaihuo(self):
+#         print(self.name,'可以开火')
+#     def have(self):
+#         print('士兵',self.name)
+# class D(Gun):
 #     def a(self):
 #         Gun('ak47').chuangtian()
-#         Gun('ak47').fashe()
 #         Solider('ruien').kaihuo()
+#         Gun('ak47').fashe()
+#         Gun('ak47').have()
+#         #Solider('ruien').have()
+#
 # ad=D(Solider)
 # ad1 = D(Gun)
 # ad.a()
+## F(ad)
+## F(ad1)
 
 #类：枪
 #属性：名字
