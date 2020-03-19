@@ -63,23 +63,32 @@
 
 
 
-# class Furniture(object):
-#     def __init__(self,area):
-#         self.area = area
-#     def chuang(self,**kwargs):
-#         print(kwargs)
-# class House(Furniture):
-#     def __init__(self,type,zarea):
-#         self.type = type
-#         self.zarea = zarea
-#     def a(self):
-#         print(self.type,self.zarea,self)
-
-# b= Furniture('15平米')
-# extra ={'床':'2平米','衣柜':'2平米','餐桌':'1.5平米'}
+class Furniture(object):
+    def __init__(self,area):
+        self.area = area
+    def chuang(self,name):
+        print(name,'占',self.area)
+    def yigui(self,name,):
+        print(name,'占',self.area)
+    def desk(self,name,):
+        print(name,'占',self.area)
+class House(Furniture):
+    def __init__(self,type,zarea):
+        self.type = type
+        self.zarea = zarea
+    def a(self):
+        print(self.type,self.zarea,self)
+b= Furniture('15平米')
+# extra ={'床':'4','衣柜':'2','餐桌':'1.5'}
+# c = extra.values()
+# sum = 0
+# # for i in c:
+# #     sum = i+sum
+# # print(sum)
+# print(c)
 # b.chuang(**extra)
-# a = House('一室一厅','10平米')
-# a.a()
+a = House('一室一厅','10')
+b.chuang('床')
 
 
 #房子：户型，总面积，家具名称，搬东西
@@ -100,14 +109,15 @@
 #     def __init__(self, type, zarea):
 #         self.type = type
 #         self.zarea = zarea
-#     def ban(self,shengyu):
-#         print(self.type, '总占地',self.zarea,'剩余',shengyu)
+#     def ban(self):
+#         # shengyu = int(self.zarea) -
+#         print(self.type, '总占地',self.zarea,'剩余')
 #         Furniture().chuang('床','4')
 #         Furniture().yigui('衣柜', '2')
 #         Furniture().desk('书桌', '1.5')
-# a = House('一室一厅','100')
-# a.ban('55')
 #
+# a = House('一室一厅','100')
+#a.ban()
 # #类：家具Furniture.chuang('床','4')
 # #属性
 # #方法
