@@ -63,22 +63,22 @@
 
 
 
-class Furniture(object):
-    def __init__(self,area):
-        self.area = area
-    def chuang(self,name):
-        print(name,'占',self.area)
-    def yigui(self,name,):
-        print(name,'占',self.area)
-    def desk(self,name,):
-        print(name,'占',self.area)
-class House(Furniture):
-    def __init__(self,type,zarea):
-        self.type = type
-        self.zarea = zarea
-    def a(self):
-        print(self.type,self.zarea,self)
-b= Furniture('15平米')
+# class Furniture(object):
+#     def __init__(self,area):
+#         self.area = area
+#     def chuang(self,name):
+#         print(name,'占',self.area)
+#     def yigui(self,name,):
+#         print(name,'占',self.area)
+#     def desk(self,name,):
+#         print(name,'占',self.area)
+# class House(Furniture):
+#     def __init__(self,type,zarea):
+#         self.type = type
+#         self.zarea = zarea
+#     def a(self):
+#         print(self.type,self.zarea,self)
+# b= Furniture('15平米')
 # extra ={'床':'4','衣柜':'2','餐桌':'1.5'}
 # c = extra.values()
 # sum = 0
@@ -87,8 +87,8 @@ b= Furniture('15平米')
 # # print(sum)
 # print(c)
 # b.chuang(**extra)
-a = House('一室一厅','10')
-b.chuang('床')
+# a = House('一室一厅','10')
+# b.chuang('床')
 
 
 #房子：户型，总面积，家具名称，搬东西
