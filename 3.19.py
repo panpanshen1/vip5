@@ -112,3 +112,15 @@ import json
 # cookies = {'JSESSIONID':r1.cookies['JSESSIONID']}
 # r2 = requests.get('https://www.wanandroid.com/lg/todo/list/0',cookies = cookies)
 # print(type(r2.text))
+
+#
+# url3 = 'https://auth.pactera.com/login?service=http%3A%2F%2Fhub.pactera.com%2F%3Fq%3Dhome-page'
+# data = {'username':'P0124191','password':'H8%2@#43'}
+# s = requests.session()
+# r = requests.post(url=url3,data = data)
+# print(r.text)
+
+# #cookie = r.cookies
+# r2 = s.get('http://ilearn.pactera.com/lms-student/course/load_course_tab_teacher')
+# print(r2.raw)
+
