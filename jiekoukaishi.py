@@ -8,8 +8,8 @@ import requests,json
 # urlstr='https://zhuanlan.zhihu.com/p/62234258'
 # #调用get方法
 # result = requests.get(url=urlstr)
-#
-# #打印结果
+# #
+# # #打印结果
 # print(result.text)
 # print(result.cookies)
 # print(result.headers)
