@@ -189,6 +189,7 @@
 #家具类Furniture
 属性：名字name 占地面积cover_area
 '''
+
 class House(object):
     def __init__(self, apartment, total_area):
         self.furniture_list = []
@@ -197,11 +198,14 @@ class House(object):
         self.residual_area = self.total_area
     def add_furniture(self, item):
         # 家具名称列表新增家具名称
-        print('开始添加家具')
-        self.furniture_list.append(item.name)
-        # 剩余面积会减少（剩余面积 = 总面积-家具占地面积）
-        self.residual_area  = self.residual_area -item.cover_area
-        print('添加家具成功')
+        if self.residual_area < item.cover_area:
+            print('为空了，没了')
+        else:
+            print('开始添加家具')
+            self.furniture_list.append(item.name)
+            # 剩余面积会减少（剩余面积 = 总面积-家具占地面积）
+            self.residual_area  = self.residual_area -item.cover_area
+            print('添加家具成功')
         pass
     # 返回实例对象的类的描述信息，
     def __str__(self):
@@ -218,7 +222,7 @@ class Furniture(object):
 h = House('三室一厅',120)
 print(h)
 
-f =Furniture('床',4)
+f =Furniture('床',400)
 
 h.add_furniture(f)
 print(h)
