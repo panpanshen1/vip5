@@ -190,42 +190,42 @@
 属性：名字name 占地面积cover_area
 '''
 
-class House(object):
-    def __init__(self, apartment, total_area):
-        self.furniture_list = []
-        self.apartment = apartment
-        self.total_area = total_area
-        self.residual_area = self.total_area
-    def add_furniture(self, item):
-        # 家具名称列表新增家具名称
-        if self.residual_area < item.cover_area:
-            print('为空了，没了')
-        else:
-            print('开始添加家具')
-            self.furniture_list.append(item.name)
-            # 剩余面积会减少（剩余面积 = 总面积-家具占地面积）
-            self.residual_area  = self.residual_area -item.cover_area
-            print('添加家具成功')
-        pass
-    # 返回实例对象的类的描述信息，
-    def __str__(self):
-        return '创建了一个户型为%s,面积为%s平的房子,剩余面积为%s平,家具有%s的房子' % (self.total_area, self.apartment,self.residual_area,self.furniture_list)
-    #py自己的东西，__str__,用return，调用类的时候就会打印出来了
-class Furniture(object):
-    def __init__(self,name,cover_area):
-        self.name = name
-        self.cover_area = cover_area
-    def __str__(self):
-        return '创建了一个%s家具，占地面积为%s'%(self.name,self.cover_area)
-
-
-h = House('三室一厅',120)
-print(h)
-
-f =Furniture('床',400)
-
-h.add_furniture(f)
-print(h)
+# class House(object):
+#     def __init__(self, apartment, total_area):
+#         self.furniture_list = []
+#         self.apartment = apartment
+#         self.total_area = total_area
+#         self.residual_area = self.total_area
+#     def add_furniture(self, item):
+#         # 家具名称列表新增家具名称
+#         if self.residual_area < item.cover_area:
+#             print('为空了，没了')
+#         else:
+#             print('开始添加家具')
+#             self.furniture_list.append(item.name)
+#             # 剩余面积会减少（剩余面积 = 总面积-家具占地面积）
+#             self.residual_area  = self.residual_area -item.cover_area
+#             print('添加家具成功')
+#         pass
+#     # 返回实例对象的类的描述信息，
+#     def __str__(self):
+#         return '创建了一个户型为%s,面积为%s平的房子,剩余面积为%s平,家具有%s的房子' % (self.total_area, self.apartment,self.residual_area,self.furniture_list)
+#     #py自己的东西，__str__,用return，调用类的时候就会打印出来了
+# class Furniture(object):
+#     def __init__(self,name,cover_area):
+#         self.name = name
+#         self.cover_area = cover_area
+#     def __str__(self):
+#         return '创建了一个%s家具，占地面积为%s'%(self.name,self.cover_area)
+#
+#
+# h = House('三室一厅',120)
+# print(h)
+#
+# f =Furniture('床',400)
+#
+# h.add_furniture(f)
+# print(h)
 
 
 # class strtest:
@@ -237,3 +237,39 @@ print(h)
 # if __name__ == "__main__":
 #     st=strtest()
 #     print (st)
+
+
+'''
+#士兵 Soldier
+属性：name  
+方法：开火  fire
+有  have
+
+
+#枪 Gun
+属性：name
+方法：装填 put  发射 Lunch
+'''
+
+class Gun(object):
+    def __init__(self,gunname):
+        self.gunname = gunname
+    # def  put(self):
+    #     print('%s可以装填子弹'%(self.gunname))
+    # def  lunch(self):
+    #     print('%s可以发射子弹' % (self.gunname))
+    def __str__(self):
+        return '%s可以装填子弹,%s可以发射子弹'%(self.gunname,self.gunname)
+class Soldier(object):
+    def __init__(self,name):
+        self.name = name
+    def fire(self):
+        print('士兵可以开火')
+    def __str__(self):
+        return '%s可以装填子弹,%s可以发射子弹' % (self.gunname, self.gunname)
+
+g = Gun('ak47')
+print(g)
+s=Soldier('sd')
+print(s)
+
