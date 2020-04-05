@@ -1,5 +1,6 @@
 import unittest
 import myfile
+from HTMLTestRunner import  HTMLTestRunner
 from myfile import *
 class testMyfun(unittest.TestCase):
     def setUp(self):
@@ -28,15 +29,6 @@ class testMyfun(unittest.TestCase):
         self.assertEqual(result,expect)
         print(expect ,'=',result )
 
-if __name__  ==  '__main__':
-    unittest.main()
-    #通过创建测试套件的用法
-    suite = unittest.TestSuite
-    suite.addTest(testMyfun('testAdd'))
-    runner = unittest.TestRunner
-    runner.run(suite)
-
-    suite = unittest.defaultTestLoader.discover()
 
 
 
